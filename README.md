@@ -13,6 +13,17 @@ This repo contains scripts to reconstruct and clean up decompiled DTS files into
 
 ## Transform Script
 
+<table>
+<tr>
+<td align="center"><b>Before</b></td>
+<td align="center"><b>After</b></td>
+</tr>
+<tr>
+<td><img src="docs/media/dtc-output.png" alt="example decompiled dts from dtc"></td>
+<td><img src="docs/media/transform_dts-output.png" alt="example output from transform_dts"></td>
+</tr>
+</table>
+
 ### Features
 - Rebuilds decompiled overlay fragments
 - Resolves fixups and local phandles
