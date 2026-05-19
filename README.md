@@ -46,7 +46,7 @@ dtc -I dtb -O dts -o "input-decompiled.dts" "input.dtb"
 ### Usage
 
 ```bash
-python3 transform_dts.py -i "input-decompiled.dts" -o "output.dts"
+python3 scripts/transform_dts.py -i "input-decompiled.dts" -o "output.dts"
 ```
 
 It is recommended to compile and decompile the reconstructed DTS again and compare the decompiled output-decompiled.dts against the original input-decompiled.dts.
